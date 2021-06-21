@@ -14,7 +14,7 @@ function Main(props) {
   return (
     <section>
       <p>We serve the most {props.adjective} food around.</p>
-      <img src={restaurant} height={200}/>
+      <img src={restaurant} height={200} alt="napkin and silverware at a restaurant table"/>
       <ul style={{ textAlign: "left" }}>
         {/** if we write like below we get a warning that it should have unique key */}
         {/*1 {props.dishes.map((dish) => (
@@ -30,8 +30,6 @@ function Main(props) {
     </section>
   );
 }
-
-//<li key={dish.id}>{dish.title}</li>
 
 function Footer(props) {
   return (

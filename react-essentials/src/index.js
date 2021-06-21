@@ -1,10 +1,9 @@
 //import react and react-dom
 import React from "react";
 import ReactDOM from "react-dom";
-import App from './App.js'
+import App from "./App.js";
 import "./index.css";
 
-//create a react component
 // const App = () => {
 //   const buttonText = { text: "Click me" };
 //   const labelText = "Enter name:";
@@ -24,7 +23,6 @@ import "./index.css";
 //   );
 // };
 
-// take the react component and show it on the screen
 // ReactDOM.render(React.createElement("h1",null,"hello"), document.querySelector("#root"));
 // ReactDOM.render(
 //   React.createElement(
@@ -37,4 +35,24 @@ import "./index.css";
 //   document.querySelector("#root")
 // );
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+//fragments
+function App2() {
+  return <div> hello app2</div>;
+}
+// ReactDOM.render(
+//     // with div an extra div is created to avoid this we use fragments
+//   <div>
+//     <App />
+//     <App2 />
+//   </div>,
+//   document.getElementById("root")
+// );
+
+ReactDOM.render(
+  <React.Fragment>
+    <App />
+    <App2 />
+  </React.Fragment>,
+  document.getElementById("root")
+);
