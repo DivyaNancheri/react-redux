@@ -1,10 +1,13 @@
 {
-  "name": "jsx",
+  "name": "react-essentials",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "history": "^5.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {

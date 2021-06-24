@@ -1,7 +1,11 @@
 //import react and react-dom
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App.js";
+import Hooks from "./Hooks.js";
+import Data from "./Data.js";
+import RouteController from "./RouteController.js";
 import "./index.css";
 
 // const App = () => {
@@ -35,7 +39,6 @@ import "./index.css";
 //   document.querySelector("#root")
 // );
 
-
 //fragments
 function App2() {
   return <div> hello app2</div>;
@@ -49,10 +52,23 @@ function App2() {
 //   document.getElementById("root")
 // );
 
+// ReactDOM.render(
+//   <React.Fragment>
+//     <App />
+//     <App2 />
+//   </React.Fragment>,
+//   document.getElementById("root")
+// );
+
+// ReactDOM.render(<Hooks />, document.getElementById("root"));
+
+// fetching data
+// ReactDOM.render(<Data login="DivyaNancheri"/>, document.getElementById("root"));
+
+//routing
 ReactDOM.render(
-  <React.Fragment>
-    <App />
-    <App2 />
-  </React.Fragment>,
+  <Router>
+    <RouteController />
+  </Router>,
   document.getElementById("root")
 );

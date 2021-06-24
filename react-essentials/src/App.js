@@ -2,10 +2,11 @@ import React from "react";
 import restaurant from "./restaurant.jpg";
 import "./App.css";
 
-function Header({name}) {
+function Header(name) {
+  console.log(name.name)
   return (
     <header>
-      <h1>{name}'s Kitchen</h1>
+      <h1>{name.name}'s Kitchen</h1>
     </header>
   );
 }
