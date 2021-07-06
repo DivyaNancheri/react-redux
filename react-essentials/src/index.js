@@ -6,6 +6,8 @@ import App from "./App.js";
 import Hooks from "./Hooks.js";
 import Data from "./Data.js";
 import RouteController from "./RouteController.js";
+import LifeCycle from "./LifeCycle.js";
+
 import "./index.css";
 
 // const App = () => {
@@ -40,9 +42,9 @@ import "./index.css";
 // );
 
 //fragments
-function App2() {
-  return <div> hello app2</div>;
-}
+// function App2() {
+//   return <div> hello app2</div>;
+// }
 // ReactDOM.render(
 //     // with div an extra div is created to avoid this we use fragments
 //   <div>
@@ -66,9 +68,12 @@ function App2() {
 // ReactDOM.render(<Data login="DivyaNancheri"/>, document.getElementById("root"));
 
 //routing
-ReactDOM.render(
-  <Router>
-    <RouteController />
-  </Router>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <Router>
+//     <RouteController />
+//   </Router>,
+//   document.getElementById("root")
+// );
+
+//lifecycle
+ReactDOM.render(<LifeCycle />, document.getElementById("root"));
