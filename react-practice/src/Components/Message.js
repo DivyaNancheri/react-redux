@@ -25,3 +25,4 @@ class Message extends React.Component{
 }
 
 export default Message;
+// 10. State 
