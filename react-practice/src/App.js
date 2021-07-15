@@ -13,11 +13,17 @@ import "./appStyles.css";
 import styles from "./appStyles.module.css";
 import Form from "./Components/Form";
 import ParentComp from "./Components/ParentComp";
+import RefsDemo from "./Components/RefsDemo";
+import FocusInput from "./Components/FocusInput";
+import FRParentInput from "./Components/FRParentInput";
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      {/* <FRParentInput /> */}
+      {/* <FocusInput /> */}
+      {/* <RefsDemo /> */}
+      {/* <ParentComp /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>error</h1>
       <h1 className={styles.success}>success</h1>
@@ -50,3 +56,6 @@ export default App;
 //StyleSheet: Styling and CSS Basics - 20
 // Form - 21 - Basics of Form Handling
 // PureComp, RegularComponent, ParentCmp - 26 - PureComponent
+// RefsDemo-28-Refs
+// FocusInput,Input-28-Refs with Class Components   FocusInput is parent component
+// FRParentInput,FRInput-30 - Forwarding Refs    FRParentInput is parentClass
