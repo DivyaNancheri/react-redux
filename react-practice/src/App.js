@@ -16,10 +16,14 @@ import ParentComp from "./Components/ParentComp";
 import RefsDemo from "./Components/RefsDemo";
 import FocusInput from "./Components/FocusInput";
 import FRParentInput from "./Components/FRParentInput";
+import HOCclick from "./Components/HOCclick";
+import HOCHover from "./Components/HOCHover";
 
 function App() {
   return (
     <div className="App">
+      <HOCclick id='1997'/>
+      <HOCHover />
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
       {/* <RefsDemo /> */}
@@ -59,3 +63,4 @@ export default App;
 // RefsDemo-28-Refs
 // FocusInput,Input-28-Refs with Class Components   FocusInput is parent component
 // FRParentInput,FRInput-30 - Forwarding Refs    FRParentInput is parentClass
+//HOCclick, HOCHover,withHOC - 33,34,35- HOC
