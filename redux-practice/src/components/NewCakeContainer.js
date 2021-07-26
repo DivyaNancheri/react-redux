@@ -6,7 +6,7 @@ function NewCakeContainer(props) {
     const [number, setNumber] = useState(1)
     return (
         <div>
-            <h2>Number of cakes- {props.numberOfCakes}</h2>
+            <h2>new:: Number of cakes- {props.numberOfCakes}</h2>
             <input type='text' value={number} onChange={e=> setNumber(e.target.value)} />
             <button onClick={()=>props.buyCake(number)}>Buy {number} Cake</button>
         </div>

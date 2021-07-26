@@ -16,12 +16,14 @@ const FETCH_USERS_REQUEST = 'FETCH_USERS_REQUEST'
 const FETCH_USERS_SUCCESS = 'FETCH_USERS_SUCCESS'
 const FETCH_USERS_FAILURE = 'FETCH_USERS_FAILURE'
 
-const fetchUsersRequest = () => {
+function fetchUsersRequest(){
     return {
         type: FETCH_USERS_REQUEST
     }
 }
 
+//function fetchUsersSuccess (users) { 
+// we can like this too
 const fetchUsersSuccess = (users) => {
     return {
         type: FETCH_USERS_SUCCESS,

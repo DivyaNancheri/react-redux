@@ -13,15 +13,15 @@ import UserContainer from "./components/UserContainer";
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div className="App"> 
         <UserContainer />
         {/* <ItemContainer />
-        <ItemContainer cake />
-        <IcecreamContainer />
-         <HooksCakeContainer /> 
-        <CakeContainer />
-        <ChocolateContainer />
-        <NewCakeContainer /> */}
+        <ItemContainer cake /> */}
+        {/* <IcecreamContainer />  */}
+         {/* <HooksCakeContainer />   */}
+        {/* <CakeContainer /> */}
+        {/* <ChocolateContainer /> */}
+        {/* <NewCakeContainer /> */}
       </div>
     </Provider>
   );

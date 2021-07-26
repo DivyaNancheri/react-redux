@@ -13,6 +13,8 @@ const store = createStore(
   )
 );
 
-// const store=createStore(rootReducer, applyMiddleware(logger))
+// import cakeReducer from "./cake/cakeReducer";
+
+// const store=createStore(rootReducer, composeWithDevTools(applyMiddleware(logger)))
 
 export default store;

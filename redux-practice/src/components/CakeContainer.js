@@ -3,9 +3,10 @@ import {connect} from 'react-redux'
 import {buyCake } from '../redux/index'
 
 function CakeContainer(props) {
+    console.log(props)
     return (
         <div>
-            <h2>Number of cakes- {props.numberOfCakes}</h2>
+            <h2>Number of cakes- {props.noOfCakes}</h2>
             <button onClick={props.buyCake}>Buy Cake</button>
         </div>
     )
@@ -13,7 +14,8 @@ function CakeContainer(props) {
 
 const mapStateToProps = state => {
     return {
-        numberOfCakes: state.cake.numberOfCakes
+        // noOfCakes: state.numberOfCakes // we can give a diff name if we want 
+        noOfCakes: state.cake.numberOfCakes // as we called this with cake in root reducer
     }
 }
 

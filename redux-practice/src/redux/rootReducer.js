@@ -5,9 +5,9 @@ import chocolateReducer from "./chocolate/chocolateReducer";
 import userReducer from "./Users/userReducer"
 
 const rootReducer = combineReducers({
-    cake:cakeReducer,
-    icecream: icecreamReducer,
-    chocolate: chocolateReducer,
+    // cake:cakeReducer,
+    // icecream: icecreamReducer,
+    // chocolate: chocolateReducer,
     user: userReducer
 })
 

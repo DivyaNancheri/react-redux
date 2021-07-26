@@ -57,6 +57,7 @@ const icecreamReducer =(state = initialIcecreamState, action) => {
         default: return state; 
     }
 }
+
 const reducer =(state = initialState, action) => {
     switch(action.type){
         case BUY_CAKE: return {
@@ -72,6 +73,12 @@ const reducer =(state = initialState, action) => {
 }
 
 // const store= createStore(reducer)
+// console.log('initial State=',store.getState())
+// const unsubscribe =store.subscribe(()=> console.log('updated state=', store.getState()))
+// store.dispatch(buy_cake())
+// store.dispatch(buy_cake())
+// unsubscribe()
+
 
 const rootReducer = combineReducers({
     cake: cakeReducer,
@@ -83,6 +90,6 @@ console.log('initial State=',store.getState())
 const unsubscribe =store.subscribe(()=> {})
 store.dispatch(buy_cake())
 store.dispatch(buy_icecream())
-store.dispatch(buy_cake())
+// store.dispatch(buy_cake())
 // console.log('updated state=', store.getState())
 unsubscribe()
