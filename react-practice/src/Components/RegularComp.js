@@ -14,3 +14,4 @@ class RegularComp extends Component {
 
 export default RegularComp
 // RegularComp- 26 - PureComponent
+// PureComp, RegularComponent, ParentCmp - 26 - PureComponent

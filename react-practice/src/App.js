@@ -18,12 +18,14 @@ import FocusInput from "./Components/FocusInput";
 import FRParentInput from "./Components/FRParentInput";
 import HOCclick from "./Components/HOCclick";
 import HOCHover from "./Components/HOCHover";
+import Hover from "./Components/Hover";
 
 function App() {
   return (
     <div className="App">
-      <HOCclick id='1997'/>
-      <HOCHover />
+      {/* <Hover /> */}
+     {/* <HOCclick id='1997'/>  */}
+       {/* <HOCHover />  */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
       {/* <RefsDemo /> */}
@@ -33,7 +35,7 @@ function App() {
       <h1 className={styles.success}>success</h1>
       <Inline /> */}
       {/* <StyleSheet /> */}
-      {/* <EventBind /> */}
+      <EventBind />
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
       {/* <Counter /> */}

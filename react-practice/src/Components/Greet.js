@@ -14,5 +14,12 @@ const Greet = (props) => {
   );
 };
 
+const Grret=(props)=>{
+  return (
+    <h1>You Will achieve it.
+      
+    </h1>
+  )
+}
 export default Greet;
 //props explaination 9

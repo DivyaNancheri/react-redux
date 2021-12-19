@@ -14,3 +14,4 @@ class PureComp extends PureComponent {
 
 export default PureComp
 // PureComp- 26 - PureComponent
+// PureComp, RegularComponent, ParentCmp - 26 - PureComponent

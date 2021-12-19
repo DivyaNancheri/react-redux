@@ -16,6 +16,7 @@ class RefsDemo extends Component {
     console.log("mount=", this.inputRef);
   }
   clickHandler = () => {
+    console.log("clickHandler=", this.inputRef);
     alert(this.inputRef.current.value);
   };
   render() {
