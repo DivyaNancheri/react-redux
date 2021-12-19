@@ -19,6 +19,7 @@ function HookMouse() {
       window.removeEventListener("mousemove", logMousePosition);
     };
   }, []);
+  
   return (
     <div>
       Hooks X- {x} Y -{y}

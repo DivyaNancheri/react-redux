@@ -10,6 +10,7 @@ function HookCounter() {
     <div>
       <h2>Clicked {count} times</h2>
       <button onClick = {incrementCounter}>click me</button>
+      <button onClick={()=>setCount(count+1)}>clicl</button>
       {/* <button onClick={() => setCount(count + 1)}>click me</button> */}
     </div>
   );

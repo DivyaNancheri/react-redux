@@ -28,6 +28,7 @@ function App() {
       {/* <UseStateWithArray /> */}
       {/* <INC_DECHooksCounter/> */}
       {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
     </div>
   );
 }
