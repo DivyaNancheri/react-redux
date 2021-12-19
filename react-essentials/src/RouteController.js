@@ -15,15 +15,11 @@ import {
 function RouteController() {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />}>
-          <Route path="services" element={<Services />} />
-          <Route path="history" element={<CompanyHistory />} />
-          <Route path="location" element={<Location />} />
-        </Route>
-        <Route path="/events" element={<Events />} />
-        <Route path="/contact" element={<Contact />} />
+      <Routes>  // multiple home 
+        <Route path="/" element={<Home />} /> login 
+        
+        <Route path="/events" element={<Events />} /> // forgot passowrd
+        <Route path="/contact" element={<Contact />} /> // signup
         <Route path="*" element={<Error />} />
       </Routes>
     </div>

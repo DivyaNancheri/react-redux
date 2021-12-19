@@ -21,6 +21,7 @@ function Main(props) {
         {/*1 {props.dishes.map((dish) => (
           <li>{dish}</li>
         ))} */}
+        {props.dishes.map((dish)=>(<li></li>))}
         {/* 2 {props.dishes.map((dish, i) => (
           <li key={i}>{dish}</li>
         ))} */}

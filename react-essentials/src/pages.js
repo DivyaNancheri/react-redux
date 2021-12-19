@@ -54,7 +54,8 @@ export function Location() {
 export function Events() {
   return (
     <div>
-      <h1>[Events]</h1>
+      new password:  <input type='password' value='newPwd'/>
+      retype password:  <input type='password' value='newPwd'/>
     </div>
   );
 }
@@ -63,6 +64,7 @@ export function Contact() {
   return (
     <div>
       <h1>[Contact]</h1>
+      <button type='submit' ></button>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 //import react and react-dom
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import React from "react";// every react app
+import ReactDOM from "react-dom"; // index.js
+import { BrowserRouter as Router } from "react-router-dom"; // main home page 
 import App from "./App.js";
 import Hooks from "./Hooks.js";
 import Data from "./Data.js";
@@ -67,13 +67,13 @@ import "./index.css";
 // fetching data
 // ReactDOM.render(<Data login="DivyaNancheri"/>, document.getElementById("root"));
 
-//routing
-// ReactDOM.render(
-//   <Router>
-//     <RouteController />
-//   </Router>,
-//   document.getElementById("root")
-// );
+// routing
+ReactDOM.render(
+  <Router>
+    <RouteController />
+  </Router>,
+  document.getElementById("root")
+);
 
 //lifecycle
-ReactDOM.render(<LifeCycle />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
