@@ -14,8 +14,8 @@ function CakeContainer(props) {
 
 const mapStateToProps = state => {
     return {
-        // noOfCakes: state.numberOfCakes // we can give a diff name if we want 
-        noOfCakes: state.cake.numberOfCakes // as we called this with cake in root reducer
+        noOfCakes: state.numberOfCakes // we can give a diff name if we want 
+        // noOfCakes: state.cake.numberOfCakes // as we called this with cake in root reducer
     }
 }
 
